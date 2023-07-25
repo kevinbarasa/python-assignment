@@ -36,13 +36,6 @@ def main():
         grade = calculate_grade(marks)
         print(f"Grade: {grade}")
 
-        choice = input("Do you want to calculate the grade for another student? (yes/no): ").lower()
-        if choice != "yes":
-            break
-
-    print("Exiting the program.")
-
-
 if __name__ == "__main__":
     main()
 
